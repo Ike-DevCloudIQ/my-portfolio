@@ -51,7 +51,7 @@
     "@testing-library/user-event": "^14.6.1",
     "@vitejs/plugin-react": "^4.2.1",
     "dotenv": "^8.6.0",
-    "eslint": "^8.57.1",
+    "eslint": "^10.5.0",
     "eslint-config-react-app": "^7.0.1",
     "prettier": "^2.3.1",
     "sharp": "^0.34.1",
