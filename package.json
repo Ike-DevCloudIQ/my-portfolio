@@ -1,0 +1,60 @@
+{
+  "homepage": "https://ike-devcloudiq.github.io/my-portfolio",
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "colorthief": "^2.3.0",
+    "gh-pages": "^2.1.1",
+    "jest-canvas-mock": "^2.3.1",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.8.1",
+    "react-headroom": "^3.0.0",
+    "react-reveal": "^1.2.2",
+    "react-twitter-embed": "3.0.3",
+    "sass": "^1.32.8"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "start": "node fetch.js && vite",
+    "build": "node fetch.js && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
+    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\"",
+    "lint": "eslint './src/**/*.{js,jsx}'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "dotenv": "^8.6.0",
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "^2.3.1",
+    "sharp": "^0.34.1",
+    "vite": "^5.2.0"
+  }
+}

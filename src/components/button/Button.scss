@@ -1,0 +1,49 @@
+@import "../../_globalColor";
+
+.main-button {
+  background: $buttonColor;
+  background-size: 200% auto;
+  border: none;
+  color: $textColorDark !important;
+  font-weight: 600;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 4px 15px 0 rgba(108, 99, 255, 0.3);
+}
+.main-button:hover {
+  background-position: right center;
+  color: #fff !important;
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 25px 0 rgba(108, 99, 255, 0.5);
+}
+.project-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.project-button > .main-button {
+  margin-right: 0 !important;
+}
+/* Media Query */
+@media (max-width: 768px) {
+  .main-button {
+    font-size: 0.938rem;
+    padding: 12px 18px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .main-button {
+    font-size: 0.75rem;
+  }
+}
