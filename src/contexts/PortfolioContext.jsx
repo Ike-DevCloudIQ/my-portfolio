@@ -2,9 +2,6 @@ import React, { createContext, useContext } from "react";
 
 // --- Import Images ---
 import img_5 from "../assets/images/dev_proj_logo.gif";
-import img_6 from "../assets/images/dev_proj_logo.gif";
-import img_7 from "../assets/images/dev_proj_logo.gif";
-import img_8 from "../assets/images/dev_proj_logo.gif";
 import img_10 from "../assets/images/AWS.png";
 import splashAnimation from "../assets/lottie/splashAnimation";
 import emoji from "react-easy-emoji";
@@ -114,28 +111,22 @@ export const PortfolioProvider = ({ children }) => {
       subtitle: "End-to-end CI/CD, cloud, and automation projects from my GitHub.",
       projects: [
         {
-          image: img_5,
-          projectName: "My Portfolio – Full DevOps Pipeline",
-          projectDesc: "Personal portfolio application with a complete CI/CD pipeline: GitHub Actions build, Docker image build & push to DockerHub, and automatic deployment to GitHub Pages.",
-          footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ/my-portfolio" }, { name: "Live Demo", url: "https://ike-devcloudiq.github.io/my-portfolio/" }]
+          image: "https://raw.githubusercontent.com/Ike-DevCloudIQ/end-to-end-devops-aws/main/Images/Ultimate%20Project%20Architecture.gif",
+          projectName: "End-to-End DevOps on AWS: Microservices, CI/CD, GitOps & Observability",
+          projectDesc: "Production-grade DevOps platform for a 16-service microservices application on AWS. Terraform provisions the VPC, EKS cluster, and remote state backend (S3 + DynamoDB); GitHub Actions automates container builds and manifest updates; ArgoCD drives GitOps continuous delivery with auto-sync, drift detection, and self-healing; and Jaeger, Prometheus, and Grafana provide end-to-end observability.",
+          footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ/end-to-end-devops-aws" }]
         },
         {
-          image: img_6,
-          projectName: "Full DevOps Project – AWS EKS",
-          projectDesc: "Architecture and implementation of a full DevOps pipeline for containerized microservices: Terraform-provisioned AWS EKS, Docker, GitHub Actions CI/CD, and monitoring with Prometheus, Grafana, and Loki.",
-          footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ" }]
+          image: "https://raw.githubusercontent.com/Ike-DevCloudIQ/3-Tier-Architecture/main/images/14-architecture-diagram.gif",
+          projectName: "Enterprise 3-Tier AWS Architecture with Terraform",
+          projectDesc: "Production-ready, highly available 3-tier web architecture deployed on AWS with Terraform. Features multi-AZ Auto Scaling web and app tiers behind external and internal Application Load Balancers, an RDS MySQL Multi-AZ database, and defense-in-depth security groups with least-privilege access, following AWS Well-Architected Framework principles.",
+          footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ/3-Tier-Architecture" }]
         },
         {
-          image: img_7,
-          projectName: "Jenkins CI/CD on RedHat UBI8",
-          projectDesc: "Custom Jenkins image based on RedHat UBI8 with Docker CLI and Java 17. Implements CI/CD pipelines to build Docker images for the portfolio app.",
-          footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ" }]
-        },
-        {
-          image: img_8,
-          projectName: "YAML-Powered Resume Automation",
-          projectDesc: "Infrastructure-as-text resume: data stored in YAML, converted to Markdown and PDF using Python and Pandoc, automated with GitHub Actions.",
-          footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ" }]
+          image: "https://raw.githubusercontent.com/Ike-DevCloudIQ/Healthcare-Application/main/screenshots/App-Sigin.png",
+          projectName: "Healthcare Consultation Assistant",
+          projectDesc: "Full-stack AI SaaS for medical professionals that turns consultation notes into professional summaries, action items, and patient-friendly email drafts. Built with Next.js, TypeScript, and Tailwind CSS on the frontend and a FastAPI + OpenAI GPT backend with real-time streaming, Clerk authentication and billing, and Docker-based deployment to AWS App Runner.",
+          footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ/Healthcare-Application" }]
         }
       ],
       display: true
