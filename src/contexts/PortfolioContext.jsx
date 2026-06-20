@@ -133,6 +133,12 @@ export const PortfolioProvider = ({ children }) => {
           projectName: "Two-Tier AWS Infrastructure with Terraform",
           projectDesc: "Production-ready two-tier web application architecture on AWS, fully automated with modular Terraform. Combines an auto-scaling EC2 web tier behind an Application Load Balancer with a Multi-AZ RDS Aurora MySQL cluster and read replicas, plus CloudFront CDN, AWS WAF, ACM SSL/TLS, and Route 53 DNS for a secure, highly available, globally distributed deployment.",
           footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ/Two-Tier-Application" }]
+        },
+        {
+          image: img_5,
+          projectName: "AI Digital Twin Platform",
+          projectDesc: "Cloud-native AI Digital Twin system designed to reflect real-time problem-solving and response behavior. Built end-to-end with GitHub Actions CI/CD (automated deploy + controlled destroy), Terraform IaC across dev/test/prod, secure AWS OIDC authentication (no long-lived keys), serverless APIs on Lambda + API Gateway, frontend delivery via S3 + CloudFront with Route 53 and ACM, and Amazon Bedrock for intelligent AI responses. Operational reliability is enforced with remote Terraform state and locking.",
+          footerLink: [{ name: "View on LinkedIn", url: "https://www.linkedin.com/posts/activity-7432217458071040000-sbao?utm_source=share&utm_medium=member_desktop&rcm=ACoAABmcKEgB3SJI-r4k947At1zckh4rtvf4yew" }]
         }
       ],
       display: true
