@@ -61,17 +61,10 @@ export const PortfolioProvider = ({ children }) => {
       title: "Education",
       schools: [
         {
-          schoolName: "Your College / Bootcamp",
-          subHeader: "DevOps / Cloud Program",
-          duration: "Year - Year",
-          desc: "Hands-on program focused on cloud infrastructure, automation, and observability. Gained practical experience with AWS, Kubernetes, Docker, Terraform, Jenkins, GitHub Actions, and monitoring stacks such as Prometheus and Grafana.",
-          logo: img_5
-        },
-        {
-          schoolName: "Your University",
-          subHeader: "Degree / Certification",
-          duration: "Year – Year",
-          desc: "Replace with your education background, degree, and key skills gained.",
+          schoolName: "Nnamdi Azikiwe University, Awka",
+          subHeader: "B.Eng. Chemical Engineering",
+          duration: "2008 – 2013",
+          desc: "Built a strong analytical and problem-solving foundation through engineering principles, process design, and systems thinking — later channelled into cloud infrastructure, automation, and platform engineering.",
           logo: img_5
         }
       ]
@@ -94,23 +87,23 @@ export const PortfolioProvider = ({ children }) => {
       experience: [
         {
           role: "DevOps Engineer",
-          company: "Company Name",
-          date: "Year – Present",
-          desc: "Describe your role: design, implement, and maintain CI/CD pipelines and cloud-native infrastructure to support reliable, secure software delivery across environments.",
+          company: "Kainos Software Ltd.",
+          date: "Apr 2023 – Present",
+          desc: "Birmingham, United Kingdom — Designed and delivered scalable cloud platforms across Azure and AWS using Terraform, improving provisioning efficiency by 60%, and built CI/CD pipelines with GitHub Actions and Jenkins that reduced deployment failures by 40%. Led technical architecture reviews across POD teams, enhanced observability with Prometheus and Grafana, strengthened cloud security through IAM/RBAC redesigns and secrets management, and productionized AI/RAG workloads (FastAPI, LLMs, vector databases) on Kubernetes.",
           companylogo: img_5
         },
         {
-          role: "Cloud / DevOps Engineer",
-          company: "Previous Company",
-          date: "Year – Year",
-          desc: "Automated AWS infrastructure with Terraform, designed CI/CD pipelines in GitHub Actions, and deployed containerized microservices on Kubernetes. Integrated Prometheus and Grafana for observability.",
+          role: "Cloud / Platform Engineer",
+          company: "Alcatel Submarine Networks",
+          date: "Nov 2021 – Mar 2023",
+          desc: "London, United Kingdom — Automated Azure infrastructure with Terraform and ARM templates, reducing manual configuration by 50%, and developed reusable IaC patterns for compute, networking, and storage across environments. Implemented cloud monitoring, cost optimisation, and operational dashboards, strengthened security via RBAC design and governance policies, and provided engineering leadership across Azure, AWS, DevOps tooling, MLOps, and cloud architecture.",
           companylogo: img_5
         },
         {
-          role: "Junior DevOps / SysAdmin",
-          company: "Earlier Company",
-          date: "Year – Year",
-          desc: "Supported infrastructure operations, scripting and automation with Bash/Python, and CI/CD tooling. Replace this with your own experience.",
+          role: "DevOps Engineer",
+          company: "United Nations (IOM)",
+          date: "Feb 2020 – Nov 2021",
+          desc: "London, United Kingdom — Built and maintained CI/CD pipelines with Jenkins, GitHub Actions, and Maven for secure application delivery, and automated server configuration with Ansible and Python to improve reliability. Managed Kubernetes clusters for high-demand containerised workloads, optimised GPU utilisation with quantization to cut inference latency and cost, automated UNIX system patching for compliance, and supported Agile teams with scalable environments.",
           companylogo: img_5
         }
       ]
@@ -152,25 +145,32 @@ export const PortfolioProvider = ({ children }) => {
       subtitle: "Professional milestones, certifications, and continuous learning highlights from my DevOps journey.",
       achievementsCards: [
         {
-          title: "AWS Certification Journey",
-          subtitle: "Currently advancing through the AWS certification path with hands-on experience in cloud infrastructure, automation, and security.",
+          title: "Microsoft Certified: DevOps Engineer Expert (AZ-400)",
+          subtitle: "Validated expertise in designing and implementing DevOps practices, CI/CD pipelines, and infrastructure automation across Azure environments.",
           image: img_10,
-          imageAlt: "AWS Logo",
-          footerLink: [{ name: "AWS Certification Info", url: "https://aws.amazon.com/certification/" }]
+          imageAlt: "Microsoft Certified Logo",
+          footerLink: [{ name: "AZ-400 Certification", url: "https://learn.microsoft.com/credentials/certifications/devops-engineer/" }]
         },
         {
-          title: "DevOps Engineering Program",
-          subtitle: "Completed an intensive DevOps program focused on AWS, Kubernetes, Terraform, Jenkins, and Prometheus/Grafana.",
-          image: img_5,
-          imageAlt: "DevOps Program Logo",
-          footerLink: [{ name: "View Program", url: "#" }]
+          title: "Microsoft Certified: Azure Security Engineer Associate (AZ-500)",
+          subtitle: "Demonstrated skills in implementing security controls, identity and access management, and threat protection across Azure workloads.",
+          image: img_10,
+          imageAlt: "Microsoft Certified Logo",
+          footerLink: [{ name: "AZ-500 Certification", url: "https://learn.microsoft.com/credentials/certifications/azure-security-engineer/" }]
         },
         {
-          title: "Full-Stack Developer Certification",
-          subtitle: "Earned certification in full-stack web development, mastering JavaScript, React, Node.js, and SQL.",
+          title: "Microsoft Certified: Azure Developer Associate (AZ-204)",
+          subtitle: "Certified in designing, building, and maintaining cloud applications and services on Microsoft Azure.",
+          image: img_10,
+          imageAlt: "Microsoft Certified Logo",
+          footerLink: [{ name: "AZ-204 Certification", url: "https://learn.microsoft.com/credentials/certifications/azure-developer/" }]
+        },
+        {
+          title: "HashiCorp Certified: Terraform Associate",
+          subtitle: "Validated proficiency in Infrastructure as Code, provisioning, and managing cloud resources with Terraform.",
           image: img_5,
-          imageAlt: "Certification Logo",
-          footerLink: [{ name: "Learn More", url: "#" }]
+          imageAlt: "HashiCorp Logo",
+          footerLink: [{ name: "Terraform Associate", url: "https://www.hashicorp.com/certification/terraform-associate" }]
         }
       ],
       display: true
