@@ -53,6 +53,19 @@
   line-height: 40px;
 }
 
+.subtitle-heading {
+  display: block;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: $textColor;
+}
+
+.subtitle-body {
+  display: block;
+}
+
 .profile-pic {
   width: 350px;
   height: 350px;
@@ -150,6 +163,9 @@
   .greeting-text-p {
     font-size: 20px;
   }
+  .subtitle-heading {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
   .button-greeting-div {
@@ -163,6 +179,10 @@
     font-size: 16px;
     line-height: normal;
     text-align: center;
+  }
+  .subtitle-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   .greeting-main {
     display: block;

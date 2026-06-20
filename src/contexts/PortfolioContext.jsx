@@ -18,7 +18,8 @@ export const PortfolioProvider = ({ children }) => {
     greeting: {
       username: "Ikenna",
       title: "Hi there 👋, I'm Ikenna",
-      subTitle: emoji("🚀 DevOps Engineer | Cloud Automation | Reliability Enthusiast 🌍 Passionate about building cloud-native, scalable, and self-healing infrastructure. I transform complex challenges into elegant, automated solutions using AWS, Kubernetes, Docker, and Terraform. Focused on CI/CD pipelines, observability, and collaboration — helping organizations deliver software faster, safer, and smarter through automation and innovation."),
+      subTitleHeading: "🚀 Platform Engineer | DevOps | Cloud Automation",
+      subTitle: emoji("Platform Engineer with 5+ years' experience building and operating scalable, secure cloud infrastructure across AWS and Azure. Specialising in Kubernetes platforms, Infrastructure as Code (Terraform), and CI/CD automation, I transform complex systems into resilient, self-healing solutions. Passionate about platform engineering and empowering teams through automation, self-service capabilities, and modern cloud-native practices."),
       resumeLink: "https://ike-devcloudiq.github.io/my-portfolio/Resume.pdf",
       displayGreeting: true
     },

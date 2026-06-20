@@ -38,7 +38,10 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {greeting.subTitleHeading && (
+                  <span className="subtitle-heading">{greeting.subTitleHeading}</span>
+                )}
+                <span className="subtitle-body">{greeting.subTitle}</span>
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
