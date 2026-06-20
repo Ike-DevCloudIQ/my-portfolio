@@ -1,32 +1,164 @@
 %PDF-1.4
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
-endobj
-2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
-endobj
-3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
-endobj
-4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
-5 0 obj
-<< /Length 132 >>
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3894 >>
 stream
-BT /F1 24 Tf 72 700 Td (Ikenna - Resume) Tj 0 -40 Td /F1 14 Tf (Placeholder resume - replace public/Resume.pdf with your own.) Tj ET
+BT /F2 20 Tf 1 0 0 1 42.00 786.00 Tm (IKENNA UBAH) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 42.00 764.00 Tm (Senior DevOps & Cloud Platform Engineer \(Azure & AWS\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 42.00 750.00 Tm (Stafford, United Kingdom | +44 7482 140055) Tj ET
+BT /F1 10 Tf 1 0 0 1 42.00 738.00 Tm (Email: ikennaubah2@yahoo.com | LinkedIn: https://www.linkedin.com/in/ikenna2/) Tj ET
+0.7 w 42 720.00 m 553 720.00 l S
+BT /F2 15 Tf 1 0 0 1 42.00 694.00 Tm (PROFESSIONAL SUMMARY) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 676.00 Tm (Senior DevOps and Cloud Platform Engineer with over five years of experience designing,) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 663.80 Tm (automating, and operating secure, scalable cloud platforms across Azure and AWS. Specialises) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 651.60 Tm (in Infrastructure as Code, CI/CD pipelines, Kubernetes operations, cloud security, and) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 639.40 Tm (observability.) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 622.20 Tm (Proven track record of delivering resilient platforms, reducing operational toil,) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 610.00 Tm (modernising cloud environments, and improving delivery reliability for engineering teams.) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 597.80 Tm (Brings deep technical ownership, strong architectural thinking, and a focus on operational) Tj ET
+BT /F1 10.1 Tf 1 0 0 1 42.00 585.60 Tm (excellence.) Tj ET
+BT /F2 15 Tf 1 0 0 1 42.00 562.40 Tm (SKILLS MATRIX) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 546.40 Tm (Cloud Platforms) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 546.40 Tm (Azure \(AKS, ACR, VMs, VNets, Monitor, Key Vault\), AWS \(EKS, EC2,) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 535.20 Tm (VPC, CloudWatch, IAM, S3, Lambda, Amazon Bedrock\)) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 522.00 Tm (Infrastructure as Code) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 522.00 Tm (Terraform, ARM, Bicep, reusable modules, CloudFront, GitOps) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 508.80 Tm (Automation & Scripting) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 508.80 Tm (Python, Bash, Ansible, serverless automation, PowerShell, workflow) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 497.60 Tm (orchestration) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 484.40 Tm (CI/CD Pipelines) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 484.40 Tm (GitHub Actions, Jenkins, Azure DevOps, automated testing, deployment) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 473.20 Tm (patterns \(blue/green, canary, rolling\)) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 460.00 Tm (Containers & Orchestration) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 460.00 Tm (Docker, Kubernetes \(AKS/EKS\), Helm, ingress, service mesh, cluster) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 448.80 Tm (security, autoscaling) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 435.60 Tm (Observability & Monitoring) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 435.60 Tm (Prometheus, Grafana, Loki, Alertmanager, Azure Monitor, Application) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 424.40 Tm (Insights, AWS CloudWatch) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 411.20 Tm (Security & Compliance) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 411.20 Tm (IAM/RBAC, secrets management, encryption, cloud governance,) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 400.00 Tm (vulnerability scanning) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 386.80 Tm (Platform Engineering) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 386.80 Tm (Platform design, reusable components, deployment reliability, cost) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 375.60 Tm (optimisation, MLOps) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 362.40 Tm (SRE Practices) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 362.40 Tm (SLO/SLI/SLA definition, incident response, RCA, performance) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 351.20 Tm (engineering) Tj ET
+BT /F2 9.2 Tf 1 0 0 1 42.00 338.00 Tm (Collaboration) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 338.00 Tm (Agile/Scrum, technical reviews, mentoring, documentation &) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 205.00 326.80 Tm (architecture writing) Tj ET
 endstream
 endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3383 >>
+stream
+BT /F2 15 Tf 1 0 0 1 42.00 786.00 Tm (PROFESSIONAL EXPERIENCE) Tj ET
+0.7 w 42 768.00 m 553 768.00 l S
+BT /F2 12 Tf 1 0 0 1 42.00 742.00 Tm (DevOps Engineer - Kainos Software Ltd.) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 42.00 728.00 Tm (Birmingham, United Kingdom | Apr 2023 - Present) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 712.00 Tm (- Designed and delivered scalable cloud platforms in Azure and AWS using Terraform,) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 700.80 Tm (improving provisioning efficiency by 60%.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 687.40 Tm (- Built and optimised CI/CD pipelines with GitHub Actions and Jenkins, reducing deployment) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 676.20 Tm (failures by 40%.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 662.80 Tm (- Developed scalable AI model serving APIs using FastAPI and deployed containerized) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 651.60 Tm (workloads to Kubernetes clusters.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 638.20 Tm (- Led technical architecture reviews across POD teams, ensuring secure, compliant cloud) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 627.00 Tm (designs.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 613.60 Tm (- Enhanced observability using Prometheus, Grafana, and cloud-native tooling, improving) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 602.40 Tm (system health visibility.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 589.00 Tm (- Implemented automated ML pipelines for training, evaluation, and deployment, improving) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 577.80 Tm (model release cycles and reproducibility.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 564.40 Tm (- Strengthened cloud security with IAM/RBAC redesigns, automated guardrails, and) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 553.20 Tm (secrets-management improvements.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 539.80 Tm (- Supported cloud migration and modernisation initiatives aligned with resilience and) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 528.60 Tm (governance requirements.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 515.20 Tm (- Built and productionized RAG architectures, integrating LLMs with vector databases to) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 504.00 Tm (deliver context-aware AI solutions.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 490.60 Tm (- Worked with cross-functional teams to stabilise environments and continuously improve) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 479.40 Tm (delivery processes.) Tj ET
+BT /F2 12 Tf 1 0 0 1 42.00 462.00 Tm (Cloud / Platform Engineer - Alcatel Submarine Networks) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 42.00 448.00 Tm (London, United Kingdom | Nov 2021 - Mar 2023) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 432.00 Tm (- Automated Azure infrastructure using Terraform and ARM templates, reducing manual) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 420.80 Tm (configuration by 50%.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 407.40 Tm (- Developed reusable IaC patterns for compute, networking, and storage across environments.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 394.00 Tm (- Implemented cloud monitoring, cost optimisation, and operational dashboards.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 380.60 Tm (- Strengthened cloud security through RBAC design, encryption standards, and governance) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 369.40 Tm (policies.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 356.00 Tm (- Provided engineering leadership across Azure, AWS, DevOps tooling, MLOps and cloud) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 344.80 Tm (architecture.) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3135 >>
+stream
+BT /F2 15 Tf 1 0 0 1 42.00 786.00 Tm (PROFESSIONAL EXPERIENCE \(CONT.\)) Tj ET
+0.7 w 42 768.00 m 553 768.00 l S
+BT /F2 12 Tf 1 0 0 1 42.00 742.00 Tm (Cloud / Platform Engineer - Alcatel Submarine Networks) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 42.00 728.00 Tm (London, United Kingdom | Nov 2021 - Mar 2023) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 712.00 Tm (- Supported development teams with reliable, scalable cloud environments.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 698.60 Tm (- Produced cloud platform documentation covering architecture, automation, and operations.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 685.20 Tm (- Fine-tuned open-source LLMs using LoRA/PEFT techniques, improving domain-specific) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 674.00 Tm (performance and reducing inference costs.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 660.60 Tm (- Collaborated with cross-functional teams to translate business requirements into AI-driven) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 649.40 Tm (solutions, accelerating product innovation.) Tj ET
+BT /F2 12 Tf 1 0 0 1 42.00 632.00 Tm (DevOps Engineer - United Nations \(IOM\)) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 42.00 618.00 Tm (London, United Kingdom | Feb 2020 - Nov 2021) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 602.00 Tm (- Built and maintained CI/CD pipelines with Jenkins, GitHub Actions, and Maven for secure) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 590.80 Tm (application delivery.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 577.40 Tm (- Automated server configuration using Ansible and Python, improving reliability and) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 566.20 Tm (reducing deployment errors.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 552.80 Tm (- Managed Kubernetes clusters supporting high-demand containerised workloads.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 539.40 Tm (- Optimized GPU utilization and applied quantization techniques to reduce inference latency) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 528.20 Tm (and infrastructure costs.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 514.80 Tm (- Contributed to ML/AI deployment pipelines for internal analytics initiatives.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 501.40 Tm (- Automated UNIX system patching, enhancing security posture and compliance.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 488.00 Tm (- Leveraged serverless automation to streamline operational and data workflows.) Tj ET
+BT /F1 9.2 Tf 1 0 0 1 50.00 474.60 Tm (- Supported Agile teams with secure, scalable development and production environments.) Tj ET
+BT /F2 15 Tf 1 0 0 1 42.00 455.20 Tm (CERTIFICATIONS) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 50.00 439.20 Tm (- Microsoft Certified: DevOps Engineer Expert \(AZ-400\)) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 50.00 427.00 Tm (- Microsoft Certified: Azure Security Engineer Associate \(AZ-500\)) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 50.00 414.80 Tm (- Microsoft Certified: Azure Developer Associate \(AZ-204\)) Tj ET
+BT /F1 9.8 Tf 1 0 0 1 50.00 402.60 Tm (- HashiCorp Certified: Terraform Associate \(002\)) Tj ET
+BT /F2 15 Tf 1 0 0 1 42.00 384.40 Tm (EDUCATION) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 368.40 Tm (B.Eng. Chemical Engineering) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 356.40 Tm (Nnamdi Azikiwe University, Awka \(2008 - 2013\)) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
 xref
-0 6
+0 11
 0000000000 65535 f 
 0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000004100 00000 n 
+0000004242 00000 n 
+0000007677 00000 n 
+0000007819 00000 n 
+0000011006 00000 n 
+0000011148 00000 n 
+0000011217 00000 n 
 trailer
-<< /Size 6 /Root 1 0 R >>
+<< /Size 11 /Root 10 0 R >>
 startxref
-494
+11267
 %%EOF
