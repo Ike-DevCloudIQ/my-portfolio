@@ -29,15 +29,20 @@ export const PortfolioProvider = ({ children }) => {
       title: "Core Expertise",
       subTitle: "DEVOPS ENGINEER | CLOUD INFRASTRUCTURE | AUTOMATION & RELIABILITY ENGINEERING",
       skills: [
-        emoji("⚡ Architect, provision, and manage scalable cloud infrastructure using AWS (EKS, EC2, Lambda, RDS, S3) and Terraform"),
+        emoji("⚡ Architect, provision, and manage scalable cloud infrastructure using Azure andAWS (EKS, EC2, Lambda, RDS, S3) and Terraform"),
         emoji("⚡ Design and implement end-to-end CI/CD pipelines with GitHub Actions, Jenkins, and ArgoCD for automated deployments"),
         emoji("⚡ Build and maintain containerized microservices with Docker, Helm, and Kubernetes for high availability and scalability"),
         emoji("⚡ Establish observability with Prometheus, Grafana, Loki, and Alertmanager for proactive monitoring and alerting"),
         emoji("⚡ Automate system configuration and environment provisioning using Ansible, Bash, and Python scripting"),
+        emoji("⚡ Implement security best practices with IAM, RBAC, and secrets management across cloud platforms"),
+        emoji("⚡ Optimize cloud costs, performance, and reliability through monitoring, scaling, and resource management"),
+        emoji("⚡ Collaborate with cross-functional teams to deliver reliable, secure, and efficient cloud-native solutions"),
+        emoji("⚡ Lead incident response and root cause analysis for security and infrastructure-related events"),
         emoji("⚡ Manage secure secrets and configurations with GitOps workflows")
       ],
       softwareSkills: [
         { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+        { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
         { skillName: "Terraform", fontAwesomeClassname: "fas fa-cogs" },
         { skillName: "Ansible", fontAwesomeClassname: "fas fa-server" },
         { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
@@ -69,11 +74,17 @@ export const PortfolioProvider = ({ children }) => {
       title: "Proficiency",
       viewSkillBars: true,
       experience: [
-        { Stack: "CI/CD & Deployment Automation (GitHub Actions, Jenkins, ArgoCD)", progressPercentage: "90%" },
-        { Stack: "Cloud Infrastructure & IaC (AWS, Terraform, Ansible, Helm)", progressPercentage: "88%" },
-        { Stack: "Scripting & Automation (Bash, Python, Node.js)", progressPercentage: "85%" },
-        { Stack: "Observability & Monitoring (Prometheus, Grafana, Loki)", progressPercentage: "87%" },
-        { Stack: "Containerization & Microservices (Docker, Kubernetes)", progressPercentage: "90%" }
+        {stack: "Cloud Platforms (AWS, Azure, GCP)", progressPercentage: "82%"},
+        { stack: "CI/CD & Deployment Automation (GitHub Actions, Jenkins, ArgoCD)", progressPercentage: "90%" },
+        { stack: "Infrastructure as Code (Terraform, Ansible, Helm)", progressPercentage: "88%" },
+        { stack: "Scripting & Automation (Bash, Python, Node.js)", progressPercentage: "85%" },
+        { stack: "Observability & Monitoring (Prometheus, Grafana, Loki)", progressPercentage: "87%" },
+        { stack: "Containerization & Microservices (Docker, Kubernetes)", progressPercentage: "90%" },
+        { stack: "Security & Compliance (IAM, RBAC, Secrets Management)", progressPercentage: "80%" },
+        { stack: "AI & Machine Learning (FastAPI, LLMs, Vector Databases)", progressPercentage: "68%" },
+        { stack: "Version Control & Collaboration (Git, GitHub, GitLab)", progressPercentage: "92%" },
+        { stack: "Networking & Load Balancing (VPC, Subnets, ALB, NLB)", progressPercentage: "85%" },
+        { stack: "Database Management (RDS, Aurora, MySQL, PostgreSQL)", progressPercentage: "80%" }
       ],
       displayCodersrank: false
     },
