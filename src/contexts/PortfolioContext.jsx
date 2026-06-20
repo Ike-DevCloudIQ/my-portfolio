@@ -129,7 +129,7 @@ export const PortfolioProvider = ({ children }) => {
           footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ/Healthcare-Application" }]
         },
         {
-          image: "https://i.imgur.com/X4dGBg6.gif",
+          image: img_5,
           projectName: "Two-Tier AWS Infrastructure with Terraform",
           projectDesc: "Production-ready two-tier web application architecture on AWS, fully automated with modular Terraform. Combines an auto-scaling EC2 web tier behind an Application Load Balancer with a Multi-AZ RDS Aurora MySQL cluster and read replicas, plus CloudFront CDN, AWS WAF, ACM SSL/TLS, and Route 53 DNS for a secure, highly available, globally distributed deployment.",
           footerLink: [{ name: "View on GitHub", url: "https://github.com/Ike-DevCloudIQ/Two-Tier-Application" }]
