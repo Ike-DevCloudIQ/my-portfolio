@@ -79,12 +79,7 @@ export const PortfolioProvider = ({ children }) => {
         { stack: "Infrastructure as Code (Terraform, Ansible, Helm)", progressPercentage: "88%" },
         { stack: "Scripting & Automation (Bash, Python, Node.js)", progressPercentage: "85%" },
         { stack: "Observability & Monitoring (Prometheus, Grafana, Loki)", progressPercentage: "87%" },
-        { stack: "Containerization & Microservices (Docker, Kubernetes)", progressPercentage: "90%" },
-        { stack: "Security & Compliance (IAM, RBAC, Secrets Management)", progressPercentage: "80%" },
-        { stack: "AI & Machine Learning (FastAPI, LLMs, Vector Databases)", progressPercentage: "68%" },
-        { stack: "Version Control & Collaboration (Git, GitHub, GitLab)", progressPercentage: "92%" },
-        { stack: "Networking & Load Balancing (VPC, Subnets, ALB, NLB)", progressPercentage: "85%" },
-        { stack: "Database Management (RDS, Aurora, MySQL, PostgreSQL)", progressPercentage: "80%" }
+        { stack: "Containerization & Microservices (Docker, Kubernetes)", progressPercentage: "90%" }
       ],
       displayCodersrank: false
     },
