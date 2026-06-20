@@ -2,7 +2,6 @@ import React, { createContext, useContext } from "react";
 
 // --- Import Images ---
 import img_5 from "../assets/images/dev_proj_logo.gif";
-import img_10 from "../assets/images/AWS.png";
 import splashAnimation from "../assets/lottie/splashAnimation";
 import emoji from "react-easy-emoji";
 
@@ -150,23 +149,23 @@ export const PortfolioProvider = ({ children }) => {
         {
           title: "Microsoft Certified: DevOps Engineer Expert (AZ-400)",
           subtitle: "Validated expertise in designing and implementing DevOps practices, CI/CD pipelines, and infrastructure automation across Azure environments.",
-          image: img_10,
+          image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-expert-badge.svg",
           imageAlt: "Microsoft Certified Logo",
-          footerLink: [{ name: "AZ-400 Certification", url: "https://learn.microsoft.com/credentials/certifications/devops-engineer/" }]
+          footerLink: [{ name: "AZ-400 Certification", url: "https://learn.microsoft.com/en-us/users/ikennaubah-9668/credentials/42efddd031468b35" }]
         },
         {
           title: "Microsoft Certified: Azure Security Engineer Associate (AZ-500)",
           subtitle: "Demonstrated skills in implementing security controls, identity and access management, and threat protection across Azure workloads.",
-          image: img_10,
+          image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
           imageAlt: "Microsoft Certified Logo",
           footerLink: [{ name: "AZ-500 Certification", url: "https://learn.microsoft.com/credentials/certifications/azure-security-engineer/" }]
         },
         {
           title: "Microsoft Certified: Azure Developer Associate (AZ-204)",
           subtitle: "Certified in designing, building, and maintaining cloud applications and services on Microsoft Azure.",
-          image: img_10,
+          image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
           imageAlt: "Microsoft Certified Logo",
-          footerLink: [{ name: "AZ-204 Certification", url: "https://learn.microsoft.com/credentials/certifications/azure-developer/" }]
+          footerLink: [{ name: "AZ-204 Certification", url: "https://learn.microsoft.com/en-us/users/ikennaubah-9668/credentials/a45e6f869b7074dd" }]
         },
         {
           title: "HashiCorp Certified: Terraform Associate",
