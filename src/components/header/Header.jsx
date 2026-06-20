@@ -11,7 +11,7 @@ function Header() {
   workExperiences,
   skillsSection,
   openSource,
-  blogSection,
+  bigProjects,
   talkSection,
   achievementSection,
   resumeSection } = usePortfolio();
@@ -19,8 +19,8 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
+  const viewProjects = bigProjects.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
 
@@ -61,9 +61,9 @@ function Header() {
               <a href="#achievements">{achievementSection.title || "Achievements"}</a>
             </li>
           )}
-          {viewBlog && (
+          {viewProjects && (
             <li>
-              <a href="#blogs">{blogSection.title || "Blogs"}</a>
+              <a href="#projects">{bigProjects.title || "Projects"}</a>
             </li>
           )}
           {viewTalks && (
