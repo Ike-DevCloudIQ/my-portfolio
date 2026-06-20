@@ -1,5 +1,5 @@
 import img_0 from "../../assets/images/manOnTable.svg";
-import myProfilePic from "../../assets/images/programmer.svg";
+import myProfilePic from "../../assets/images/Ik.jpeg";
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
