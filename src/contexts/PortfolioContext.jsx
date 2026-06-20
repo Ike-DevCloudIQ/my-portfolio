@@ -29,7 +29,7 @@ export const PortfolioProvider = ({ children }) => {
       title: "Core Expertise",
       subTitle: "DEVOPS ENGINEER | CLOUD INFRASTRUCTURE | AUTOMATION & RELIABILITY ENGINEERING",
       skills: [
-        emoji("⚡ Architect, provision, and manage scalable cloud infrastructure using Azure andAWS (EKS, EC2, Lambda, RDS, S3) and Terraform"),
+        emoji("⚡ Architect, provision, and manage scalable cloud infrastructure using Azure and AWS (EKS, EC2, Lambda, RDS, S3) and Terraform"),
         emoji("⚡ Design and implement end-to-end CI/CD pipelines with GitHub Actions, Jenkins, and ArgoCD for automated deployments"),
         emoji("⚡ Build and maintain containerized microservices with Docker, Helm, and Kubernetes for high availability and scalability"),
         emoji("⚡ Establish observability with Prometheus, Grafana, Loki, and Alertmanager for proactive monitoring and alerting"),
@@ -164,7 +164,7 @@ export const PortfolioProvider = ({ children }) => {
           subtitle: "Demonstrated skills in implementing security controls, identity and access management, and threat protection across Azure workloads.",
           image: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
           imageAlt: "Microsoft Certified Logo",
-          footerLink: [{ name: "AZ-500 Certification", url: "https://learn.microsoft.com/credentials/certifications/azure-security-engineer/" }]
+          footerLink: [{ name: "AZ-500 Certification", url: "https://learn.microsoft.com/api/credentials/share/en-gb/IkennaUbah-9668/F0B1AA44E8C10F96?sharingId=F37C8CBB43DF72C6" }]
         },
         {
           title: "Microsoft Certified: Azure Developer Associate (AZ-204)",
@@ -187,9 +187,9 @@ export const PortfolioProvider = ({ children }) => {
     talkSection: { title: "Talks & Meetups", subtitle: emoji("Tech talks, internal knowledge-sharing sessions, and community events will be added here soon 🎤"), talks: [], display: true },
     podcastSection: { title: emoji("Podcast 🎙️"), subtitle: "Planning future episodes about real-world DevOps challenges, cloud architectures, and career growth.", podcast: [], display: true },
     resumeSection: { title: "Resume", subtitle: "Download my resume to get a full overview of my DevOps experience, skills, and professional background.", display: true },
-    contactInfo: { title: "Contact Me", subtitle: "I'm always open to exciting DevOps opportunities, cloud projects, or collaborations. Feel free to reach out — let's build something great together!", number: "07456341662", email_address: "ikennaubah2@yahoo.com" },
+    contactInfo: { title: "Contact Me", subtitle: "I'm always open to exciting DevOps opportunities, cloud projects, or collaborations. Feel free to reach out — let's build something great together!", number: "07482140055", email_address: "ikennaubah2@yahoo.com" },
     twitterDetails: { userName: "", display: false },
-    isHireable: false
+    isHireable: true
   };
 
   return (
