@@ -87,7 +87,7 @@ export const PortfolioProvider = ({ children }) => {
       experience: [
         {
           role: "DevOps Engineer",
-          company: "Kainos Software Ltd.",
+          company: "Capital One",
           date: "Apr 2023 – Present",
           desc: "Birmingham, United Kingdom — Designed and delivered scalable cloud platforms across Azure and AWS using Terraform, improving provisioning efficiency by 60%, and built CI/CD pipelines with GitHub Actions and Jenkins that reduced deployment failures by 40%. Led technical architecture reviews across POD teams, enhanced observability with Prometheus and Grafana, strengthened cloud security through IAM/RBAC redesigns and secrets management, and productionized AI/RAG workloads (FastAPI, LLMs, vector databases) on Kubernetes.",
           companylogo: img_5
