@@ -92,7 +92,7 @@ jobs:
 
       - name: Build and push Docker image 🚢
         if: steps.docker-secrets.outputs.available == 'true'
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v7
         with:
           context: .
           push: true
